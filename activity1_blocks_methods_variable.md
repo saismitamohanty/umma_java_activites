@@ -1,5 +1,6 @@
 # Activity-1 Blocks
-## Instruction ## 
+## Instruction ##  
+
 * Define a class called Test.java
 * Add main method.
 * Write System.out.println statement inside method with some message.
@@ -51,7 +52,8 @@ Value of num: 200
 * Define 2 static methods called as m1() and m2() with both having void return type. Add some statements in both of the methods.
 * Call m1() from m2()
 * From main method call m1() without creating object.
-* Add a static block. call m1() from static block without using object. verify the output.
+* Add a static block. call m1() from static block without using object. verify the output.  
+
 ***solution***
 ```java
 
@@ -100,8 +102,9 @@ After calling m1(),Inside m2().
 * call m1() from m2().
 * inside main method create object of Test using new. Test var = new Test().
 * using above reference variable of Test call m1()
-* Add a non static block. call m1() from non static block. verify the outout.
-***solution***
+* Add a non static block. call m1() from non static block. verify the outout.  
+
+***solution***  
 ```java
 
 public class Test {
@@ -133,11 +136,13 @@ Inside m2()
 Inside m1()  
 after calling m1() inside m2()  
 # Activity 4 : Parameterized Methods
-## Instruction ##
+
+## Instruction ##  
+
 * Define a class called Test.java
 * Define a main method.
 * Create a static method sum(int x, int y) and having return type as int. This should give sum of x + y
-* Call sum(10, 20) from main method and print the result inside main method
+* Call sum(10, 20) from main method and print the result inside main method  
  
 ***solution***
 ```java
@@ -176,7 +181,8 @@ sum=30
 * Inside main method create object of Test class using new. Test var = new Test();
 * call m2() using the reference variable var. Run the class. Verify output.
 * Inside main method call m1() without object. Run the class. Verify output.
-* What is the default value for x and y you are getting here?
+* What is the default value for x and y you are getting here?  
+
 ***solution***
 ```java
 public class Test {
@@ -244,8 +250,10 @@ value of x=0
 * From the main method call m1() without object. Run the class. Verify output.
 * Define a non static block. Initialize y = "hello"; and print y. Run the class. Verify output.
 * Define a non static method m2(). Initialize y = "bye"; and print y. Run the class. Verify output.
-* Inside main method create object of Test using new. Test var = new Test(); From the main method call var.m2(). Run the class. Verify output.
+* Inside main method create object of Test using new. Test var = new Test(); From the main method call var.m2(). Run the class. Verify output.   
+
 ***solution***
+
 ```java
 public class Test {
     private static int x;
@@ -293,8 +301,10 @@ bye
 * Define a class called Test.java
 * Define a main method.
 * Declare a final static variable x of int type. Try to initialize this 2 times.
-* Declare a final non static variable y of int type. Try to initialize this 2 times.
-***solution***
+* Declare a final non static variable y of int type. Try to initialize this 2 times.  
+
+***solution***  
+
 ```java
 class Test {
     final static String name = "saismita";
